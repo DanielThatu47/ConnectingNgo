@@ -139,7 +139,7 @@ USE_TZ = True
 ALLOWED_HOSTS = ['connectingngo.onrender.com', '0.0.0.0']
 
 
-STATIC_URL = 'users/static/'
+STATIC_URL = '/static/'
 #MEDIA_URL="/media/"
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = "/media/"
