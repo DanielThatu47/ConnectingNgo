@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 from pathlib import Path
-
+print(f"Port is set to: {os.getenv('PORT')}")
 # To keep secret keys in environment variables
 '''from dotenv import load_dotenv
 
