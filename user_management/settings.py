@@ -136,7 +136,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-ALLOWED_HOSTS = ['user_management.vercel.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['connectingngo.onrender.com', 'localhost', '127.0.0.1']
 
 
 STATIC_URL = '/static/'
