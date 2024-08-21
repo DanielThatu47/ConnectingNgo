@@ -142,11 +142,11 @@ ALLOWED_HOSTS = ['connectingngo.onrender.com', '0.0.0.0']
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "media","/users/static/")
+    os.path.join(BASE_DIR, "/media/","/users/static/")
 ]
-MEDIA_URL= "/media/" , "/users/static/"
-MEDIA_ROOT = "/media/" ,"/users/static/"
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media' , '/users/media/')
+MEDIA_URL= "/media/" 
+MEDIA_ROOT = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media' , '/users/static/media/')
 
 
 LOGIN_REDIRECT_URL = '/'
