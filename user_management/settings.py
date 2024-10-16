@@ -30,7 +30,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://connectingngo.onrender.com/' , 'web-production-e68e.up.railway.app']
+ALLOWED_HOSTS = ['https://connectingngo.onrender.com/' , 'https://web-production-e68e.up.railway.app/']
 
 
 # Application definition
