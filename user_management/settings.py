@@ -136,7 +136,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-ALLOWED_HOSTS = ['connectingngo.onrender.com', '0.0.0.0']
+ALLOWED_HOSTS = ['connectingngo.onrender.com', '0.0.0.0','https://web-production-e68e.up.railway.app/']
 
 
 STATIC_URL = '/static/'
